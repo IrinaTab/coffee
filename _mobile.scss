@@ -1,0 +1,114 @@
+@media (max-width: 425px) {
+    .center {
+        padding-left: calc(50% - 375px/2);
+        padding-right: calc(50% - 375px/2);
+    }
+    .header__logo-img {
+        width: 95px;
+        height: 13px;
+    }
+    .header__menu {
+        gap: 12px;
+    }
+    .header__link {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .header__btn {
+        width: 65px;
+        height: 16px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .main-content__box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-content {
+        width: 90vw;
+        padding-top: 60px;
+        gap: 12px;
+        align-items: center;
+    }
+    .title-big {
+        font-size: 24px;
+        line-height: 39px;
+        text-align: center;
+    }
+    .title-small {
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .text-about {
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .main-content__btn {
+        width: 185px;
+        height: 26px;
+        font-size: 10px;
+        line-height: 10px;
+        margin-top: 16px;
+        margin-bottom: 50px;
+    }
+     .img__board {
+        width: 100vw;
+     }
+     .img__coffe {
+        right: -1%;
+        top: 70%;
+        width: 42%;
+     }
+     .img__cup {
+        right: 30%;
+        top: 67%;
+        width: 60%;
+     }
+     .img__cookie {
+        top: 168vw;
+        right: 50%;
+        width: 50%;
+     }
+     .img__cinnamon {
+        top: 160vw;
+        right: 1%;
+        width: 65%;
+     }
+}
+@media (max-width: 320px) {
+    .center {
+        padding-left: calc(50% - 270px/2);
+        padding-right: calc(50% - 270px/2);
+    }
+    .header__logo-img {
+        display: none;
+    }
+    .header__logo {
+        background-image: url(img/coffe-logo.svg);
+        width: 20px;
+        height: 20px;
+    }
+    .img__coffe {
+        right: -1%;
+        top: 70%;
+        width: 42%;
+     }
+     .img__cup {
+        right: 30%;
+        top: 70%;
+        width: 60%;
+     }
+     .img__cookie {
+        top: 220vw;
+        right: 50%;
+        width: 50%;
+     }
+     .img__cinnamon {
+        top: 210vw;
+        right: 1%;
+        width: 65%;
+     }
+
+}

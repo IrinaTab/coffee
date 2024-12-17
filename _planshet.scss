@@ -1,0 +1,205 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 904px/2);
+        padding-right: calc(50% - 904px/2);
+    }
+    .header__logo-img {
+        width: 244px;
+        height: 31px;
+    }
+    .header__btn {
+        width: 135px;
+        height: 42px;
+    }
+    .main-content {
+        padding-left: 60px;
+    }
+    .main-content__btn {
+        width: 275px;
+        height: 39px;
+    }
+}
+@media (max-width: 923px) {
+    .center {
+        padding-left: calc(50% - 863px/2);
+        padding-right: calc(50% - 863px/2);
+    }
+    .header__link {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .header__logo-img {
+        width: 220px;
+        height: 28px;
+    }
+    .header__menu {
+        gap: 28px;
+    }
+    .header__btn {
+        width: 122px;
+        height: 38px;
+        font-size: 14px;
+    }
+    .main-content {
+        padding-left: 30px;
+    }
+    .title-big {
+        font-size: 32px;
+        line-height: 44px;
+    }
+    .title-small {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .text-about {
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 1em;
+    }
+    .main-content__btn {
+        width: 248px;
+        height: 35px;
+    }
+}
+@media (max-width: 840px) {
+    .center {
+        padding-left: calc(50% - 779px/2);
+        padding-right: calc(50% - 779px/2);
+    }
+    .header__menu {
+        gap: 28px;
+    }
+ }
+ @media (max-width: 680px) {
+    .center {
+        padding-left: calc(50% - 630px/2);
+        padding-right: calc(50% - 630px/2);
+    }
+    .header__link {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .header__menu {
+        gap: 28px;
+    }
+    .header__logo-img {
+        width: 187px;
+        height: 24px;
+    }
+    .header__btn {
+        width: 104px;
+        height: 32px;
+        font-size: 14px;
+    }
+    .main-content {
+        padding-left: 25px;
+    }
+    .title-big {
+        font-size: 22px;
+    }
+    .title-small {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .text-about {
+        font-size: 8px;
+        line-height: 15px;
+        margin-bottom: 1em;
+    }
+    .main-content__btn {
+        width: 200px;
+        height: 27px;
+    }
+    .img__cookie {
+        top: 38vw;
+     }
+     .img__cinnamon {
+        top: 30vw;
+     }
+}
+@media (max-width: 708px) {
+    .center {
+        padding-left: calc(50% - 658px/2);
+        padding-right: calc(50% - 658px/2);
+    }
+    .header__logo-img {
+        width: 150px;
+        height: 20px;
+    }
+    .header__menu {
+        gap: 18px;
+    }
+    .header__link {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .header__btn {
+        width: 85px;
+        height: 26px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .main-content__box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-content {
+        width: 40vw;
+        padding-top: 80px;
+        // padding-left: 25px;
+        gap: 12px;
+    }
+    .title-big {
+        font-size: 24px;
+        line-height: 39px;
+    }
+    .title-small {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .text-about {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .main-content__btn {
+        width: 185px;
+        height: 26px;
+        font-size: 10px;
+        line-height: 10px;
+        margin-top: 16px;
+        margin-bottom: 100px;
+    }
+     .img__board {
+        width: 100vw;
+        grid-column: span 4;
+        grid-row: span 4;
+     }
+     .img__coffe {
+        position: absolute;
+        z-index: 1;
+        right: -1%;
+        top: 80%;
+        width: 42%;
+     }
+     .img__cup {
+        position: absolute;
+        z-index: 1;
+        right: 30%;
+        top: 80%;
+        width: 60%;
+     }
+     .img__cookie {
+        position: absolute;
+        z-index: 1;
+        top: 138vw;
+        right: 50%;
+        width: 50%;
+     }
+     .img__cinnamon {
+        position: absolute;
+        z-index: 1;
+        top: 120vw;
+        right: 1%;
+        width: 65%;
+     }
+}
