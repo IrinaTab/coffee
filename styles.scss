@@ -6,8 +6,8 @@ a {
     text-decoration: none;
 }
 .center {
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
+    padding-left: calc(50% - 46vw);
+    padding-right: calc(50% - 46vw);
 }
 body {
     font-family: "Montserrat Alternates", sans-serif;
@@ -24,44 +24,44 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-}
-.header__logo-img {
-    width: 305px;
-    height: 39px;
-}
-.header__menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 48px;
-}
-.header__link {
-    color: rgb(69, 64, 61);
-    font-size: 16px;
-    line-height: 20px;
-    &:hover {
-        text-decoration-line: underline;
-        transform: scale(1.1);
-        font-weight: bold;
+    &__logo-img {
+        width: 305px;
     }
-}
-.header__btn {
-    width: 169px;
-    height: 52px;
-    box-sizing: border-box;
-    border: 1px solid rgb(162, 101, 57);
-    border-radius: 24px;
-    color: rgb(162, 101, 57);
-    font-family: inherit;
-    font-size: 16px;
-    line-height: 20px;
-}
-.header__btn:hover {
-    border-radius: 24px;
-    background: rgb(162, 101, 57);
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    line-height: 20px;
+    &__menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 48px;
+    }
+    &__link {
+        color: rgb(69, 64, 61);
+        font-size: 16px;
+        line-height: 20px;
+        &:hover {
+            text-decoration-line: underline;
+            transform: scale(1.1);
+            font-weight: bold;
+        }
+    }
+    &__btn {
+        width: 169px;
+        height: 52px;
+        box-sizing: border-box;
+        border: 1px solid rgb(162, 101, 57);
+        border-radius: 24px;
+        color: rgb(162, 101, 57);
+        font-family: inherit;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    &__btn_mobile {
+        display: none;
+    }
+    &__btn:hover {
+        border-radius: 24px;
+        background: rgb(162, 101, 57);
+        color: rgb(255, 255, 255);
+    }
 }
 .main-content__box {
     display: flex;
@@ -72,10 +72,28 @@ body {
 .main-content {
     width: 38vw;
     padding-top: 119px;
-    padding-left: 120px;
+    padding-left: calc(50% - 46vw);
     display: flex;
     flex-direction: column;
     gap: 24px;
+    &__btn {
+        width: 366px;
+        height: 52px;
+        box-sizing: border-box;
+        border: 1px solid rgb(162, 101, 57);
+        border-radius: 24px;
+        color: rgb(162, 101, 57);
+        font-size: 16px;
+        font-family: inherit;
+        line-height: 20px;
+        margin-top: 16px;
+        margin-bottom: 201px;
+        &:hover {
+            border-radius: 24px;
+            background: rgb(162, 101, 57);
+            color: rgb(255, 255, 255);
+        }
+    }
 }
 .title-big {
     color: rgb(69, 64, 61);
@@ -94,26 +112,6 @@ body {
     line-height: 20px;
     margin-bottom: 1em;
 }
-.main-content__btn {
-    width: 366px;
-    height: 52px;
-    box-sizing: border-box;
-    border: 1px solid rgb(162, 101, 57);
-    border-radius: 24px;
-    color: rgb(162, 101, 57);
-    font-size: 16px;
-    font-family: inherit;
-    line-height: 20px;
-    margin-top: 16px;
-    margin-bottom: 201px;
-}
-.main-content__btn:hover {
-    border-radius: 24px;
-    background: rgb(162, 101, 57);
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    line-height: 20px;
-}
 .animation__img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -128,37 +126,38 @@ body {
  .img__coffe {
     position: absolute;
     z-index: 1;
-    right: -1%;
-    top: 15%;
-    width: 22%;
+    right: -1vw;
+    top: 25vh;
+    width: 22vw;
  }
  .img__cup {
     position: absolute;
     z-index: 1;
-    right: 10%;
-    top: 10%;
-    width: 40%;
+    right: 10vw;
+    top: 17vh;
+    width: 39vw;
  }
  .img__cookie {
     position: absolute;
     z-index: 1;
-    top: 32vw;
-    right: 27%;
-    width: 30%;
+    top: 61vh;
+    right: 29vw;
+    width: 30vw;
  }
  .img__cinnamon {
     position: absolute;
     z-index: 1;
-    top: 25vw;
-    right: -4%;
-    width: 40%;
+    top: 47vh;
+    right: -4vw;
+    width: 40vw;
  }
  .img__cup, .img__cinnamon, .img__cookie {
     transition: transform 0.3s;
-  }
+ }
  .img__cup:hover, .img__cinnamon:hover, .img__cookie:hover {
     transform: rotate(-10deg);
-  }
+ }
+
   @import 'planshet';
   @import 'mobile';
 

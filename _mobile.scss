@@ -3,22 +3,23 @@
         padding-left: calc(50% - 375px/2);
         padding-right: calc(50% - 375px/2);
     }
-    .header__logo-img {
-        width: 95px;
-        height: 13px;
-    }
-    .header__menu {
-        gap: 12px;
-    }
-    .header__link {
-        font-size: 8px;
-        line-height: 10px;
-    }
-    .header__btn {
-        width: 65px;
-        height: 16px;
-        font-size: 8px;
-        line-height: 10px;
+    .header {
+        &__logo-img {
+            width: 95px;
+        }
+        &__menu {
+            gap: 12px;
+        }
+        &__link {
+            font-size: 8px;
+            line-height: 10px;
+        }
+        &__btn {
+            width: 65px;
+            height: 16px;
+            font-size: 8px;
+            line-height: 10px;
+        }
     }
     .main-content__box {
         flex-direction: column;
@@ -52,63 +53,61 @@
         line-height: 10px;
         margin-top: 16px;
         margin-bottom: 50px;
+        align-self: center;
     }
-     .img__board {
-        width: 100vw;
-     }
-     .img__coffe {
-        right: -1%;
-        top: 70%;
-        width: 42%;
+    .img__coffe {
+        top: 70vh;
      }
      .img__cup {
-        right: 30%;
-        top: 67%;
-        width: 60%;
+        top: 68vh;
+        right: 25vw;
+        width: 62vw;
      }
      .img__cookie {
-        top: 168vw;
-        right: 50%;
-        width: 50%;
+        top: 90vh;
      }
      .img__cinnamon {
-        top: 160vw;
-        right: 1%;
-        width: 65%;
+        top: 84vh;
      }
 }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
     .center {
         padding-left: calc(50% - 270px/2);
         padding-right: calc(50% - 270px/2);
     }
-    .header__logo-img {
-        display: none;
+    .header {
+        &__logo-img {
+            display: none;
+        }
+        &__logo {
+            background-image: url(img/coffee-logo.svg);
+            background-repeat: no-repeat;
+            width: 30px;
+            height: 30px;
+        }
+        &__link {
+            font-size: 7px;
+            line-height: 8px;
+        }
+        &__btn_mobile {
+            display: block;
+            width: 30px;
+            height: 30px;
+            box-sizing: border-box;
+            border: 1px solid rgb(162, 101, 57);
+            border-radius: 24px;
+            color: rgb(162, 101, 57);
+            padding: 4px;
+        }
+        &__btn {
+            display: none;
+        }
     }
-    .header__logo {
-        background-image: url(img/coffe-logo.svg);
-        width: 20px;
-        height: 20px;
+    .main-content {
+        padding-left: calc(50% - 270px/2);
+        padding-right: calc(50% - 270px/2);
     }
-    .img__coffe {
-        right: -1%;
-        top: 70%;
-        width: 42%;
+    .img__cookie {
+        top: 87vh;
      }
-     .img__cup {
-        right: 30%;
-        top: 70%;
-        width: 60%;
-     }
-     .img__cookie {
-        top: 220vw;
-        right: 50%;
-        width: 50%;
-     }
-     .img__cinnamon {
-        top: 210vw;
-        right: 1%;
-        width: 65%;
-     }
-
 }
